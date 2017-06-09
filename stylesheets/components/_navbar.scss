@@ -1,0 +1,17 @@
+.blazer-logo {
+  @include size(6vh);
+  margin-top: -5px;
+}
+.navbar {
+  margin: 0;
+  height: 70px;
+}
+
+.navbar-toggle {
+border: none;
+margin-top: 15px;
+& .icon-bar {
+  padding: 1.5px;
+  width: 21px;
+  }
+}

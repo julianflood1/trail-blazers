@@ -1,0 +1,22 @@
+/*libraries*/
+/* components*/
+.blazer-logo {
+  height: 6vh;
+  width: 6vh;
+  margin-top: -5px; }
+
+.navbar {
+  margin: 0;
+  height: 70px; }
+
+.navbar-toggle {
+  border: none;
+  margin-top: 15px; }
+  .navbar-toggle .icon-bar {
+    padding: 1.5px;
+    width: 21px; }
+
+/*layouts*/
+/*utilities*/
+
+/*# sourceMappingURL=output.css.map */
