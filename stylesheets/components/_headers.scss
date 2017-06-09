@@ -6,18 +6,17 @@ h2 {
 
 .panel-font {
   font-family: 'Anton', sans-serif;
-  font-size: 5vw;
+  font-size: 7vw;
+  @include large {
+    font-size: 3vw;
+  }
 }
 
-.nurkic h2 {
+.nurkic h2, .crabbe h2 {
   color: darken($color-red, $amount);
 }
 
-.cj h2 {
-  color: darken($color-white, $amount);
-}
-
-.moe h2 {
+.moe h2, .cj h2, .et h2, .aminu h2 {
   color: darken($color-white, $amount);
 }
 
@@ -26,4 +25,8 @@ p {
   display: none;
   font-family: 'Anton', sans-serif;
   font-size: 2vw;
+  @include large {
+    font-size: 1vw;
+    margin-top: 10px;
+  }
 }

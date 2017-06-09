@@ -5,6 +5,7 @@
 
 /*utilities*/
 @import
+'utilities/media-queries',
 'utilities/mixins',
 'utilities/variables';
 
@@ -17,8 +18,7 @@
 
 /*layouts*/
 @import
-  'layouts/banner',
-  'layouts/grid';
+  'layouts/banners';
 
 body {
   background-color: mix($color-red, $color-black, 60%);

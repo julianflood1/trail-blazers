@@ -12,15 +12,15 @@ h2 {
 
 .panel-font, h2 {
   font-family: 'Anton', sans-serif;
-  font-size: 5vw; }
+  font-size: 7vw; }
+  @media (min-width: 768px) {
+    .panel-font, h2 {
+      font-size: 3vw; } }
 
-.nurkic h2 {
+.nurkic h2, .crabbe h2 {
   color: #a42929; }
 
-.cj h2 {
-  color: #e5dccf; }
-
-.moe h2 {
+.moe h2, .cj h2, .et h2, .aminu h2 {
   color: #e5dccf; }
 
 p {
@@ -32,6 +32,10 @@ p {
   display: none;
   font-family: 'Anton', sans-serif;
   font-size: 2vw; }
+  @media (min-width: 768px) {
+    p {
+      font-size: 1vw;
+      margin-top: 10px; } }
 
 .blazer-logo {
   height: 6vh;
@@ -51,37 +55,42 @@ p {
     padding: 1.5px;
     width: 21px; }
 
-.panel {
+.panel, .stotts img {
   width: 100%;
   height: 20%;
   margin-top: 5vh;
   position: relative;
   border-radius: 20px;
-  background-color: black; }
-
-.panel img {
-  width: 100%;
-  border-radius: 20px; }
-
-.panel {
+  background-color: black;
+  border: 5px solid black;
   transition: all .2s ease-in-out; }
 
-.panel:hover {
+.panel img, .stotts img img {
+  width: 100%;
+  border-radius: 20px; }
+  @media (min-width: 768px) {
+    .panel img, .stotts img img {
+      height: 45vh; } }
+
+.panel:hover, .stotts img:hover {
   transform: scale(1.1); }
+
+.stotts img {
+  height: 65vh; }
 
 .dame:hover p {
   display: inline-block;
   color: black; }
 
-.cj:hover p {
+.cj:hover p, .aminu:hover p {
   display: inline-block;
   color: #e5dccf; }
 
-.nurkic:hover p {
+.nurkic:hover p, .crabbe:hover p {
   display: inline-block;
   color: #a42929; }
 
-.moe:hover p {
+.moe:hover p, .et:hover p {
   display: inline-block;
   color: #e5dccf; }
 
@@ -96,13 +105,13 @@ p {
   border-radius: 10px; }
 
 .whos-next {
+  border: 5px solid black;
   transition: all .2s ease-in-out;
   width: 100%;
-  border-bottom: 5vh; }
+  border-radius: 10px;
+  margin-bottom: 3vh; }
   .whos-next img {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 3vh; }
+    width: 100%; }
   .whos-next h1 {
     top: 60px;
     right: 30px;
