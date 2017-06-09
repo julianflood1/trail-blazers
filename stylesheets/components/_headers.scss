@@ -6,7 +6,7 @@ h2 {
 
  .stotts h2 {
   color: $color-white;
-  @include absolute(70px,0px,0px,50px);
+  @include absolute(50px,0px,0px,50px);
   width: 100px;
   height: 80px;
   font-size: 8vw;
@@ -29,13 +29,12 @@ h2 {
 }
 
 p {
-  @include absolute(70px, 20px, 30px, 20px);
+  @include absolute(80px, 20px, 0px, 20px);
   display: none;
   font-family: 'Anton', sans-serif;
-  font-size: 2vw;
+  font-size: 2.5vw;
   @include large {
     font-size: 1vw;
-    margin-top: 10px;
   }
 }
 

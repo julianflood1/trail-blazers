@@ -13,12 +13,12 @@
 @import
 'components/buttons',
 'components/headers',
-'components/navbar',
-'components/panels';
+'components/navbar';
 
-/*layouts*/
+/* layouts */
 @import
-  'layouts/banners';
+'layouts/panels',
+'layouts/banners';
 
 body {
   background-color: mix($color-red, $color-black, 60%);

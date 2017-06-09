@@ -12,7 +12,7 @@ h2 {
 
 .stotts h2 {
   color: #f7f4f0;
-  top: 70px;
+  top: 50px;
   right: 0px;
   bottom: 0px;
   left: 50px;
@@ -35,18 +35,17 @@ h2 {
   color: #e5dccf; }
 
 p {
-  top: 70px;
+  top: 80px;
   right: 20px;
-  bottom: 30px;
+  bottom: 0px;
   left: 20px;
   position: absolute;
   display: none;
   font-family: 'Anton', sans-serif;
-  font-size: 2vw; }
+  font-size: 2.5vw; }
   @media (min-width: 768px) {
     p {
-      font-size: 1vw;
-      margin-top: 10px; } }
+      font-size: 1vw; } }
 
 .stotts p {
   top: 170px;
@@ -69,7 +68,15 @@ p {
       width: 100px;
       margin-top: 10px; } }
 
+.large-logo {
+  height: 180px;
+  width: 450px;
+  position: absolute;
+  left: 250px;
+  top: -10px; }
+
 .navbar {
+  position: relative;
   margin: 0;
   height: 70px;
   background-color: black;
@@ -85,6 +92,7 @@ p {
     padding: 1.5px;
     width: 21px; }
 
+/* layouts */
 .panel {
   width: 100%;
   height: 20%;
@@ -112,11 +120,11 @@ p {
   display: inline-block;
   color: #f7f4f0; }
 
-.dame:hover p {
+.noah:hover p, .dame:hover p {
   display: inline-block;
   color: black; }
 
-.cj:hover p, .aminu:hover p {
+.cj:hover p, .aminu:hover p, .stotts:hover p {
   display: inline-block;
   color: #e5dccf; }
 
@@ -128,11 +136,6 @@ p {
   display: inline-block;
   color: #e5dccf; }
 
-.noah:hover p {
-  display: inline-block;
-  color: black; }
-
-/*layouts*/
 #banner {
   width: 100%;
   margin-top: 5vh;
@@ -153,12 +156,15 @@ p {
     left: 30px;
     position: absolute;
     color: #f7f4f0;
-    width: 100%;
-    font-size: 10vh;
-    display: none; }
+    font-size: 10vw;
+    display: none;
+    font-family: 'Anton', sans-serif; }
 
 .whos-next:hover {
   transform: scale(1.1); }
+  .whos-next:hover h1 {
+    display: inline-block;
+    color: white; }
 
 body {
   background-color: #7a1f1f; }

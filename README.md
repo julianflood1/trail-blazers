@@ -31,4 +31,4 @@ _HTML, CSS_
 
 *MIT*
 
-Copyright (c) 2015 **_Julian Flood_**
+Copyright (c) 2017 **_Julian Flood_**

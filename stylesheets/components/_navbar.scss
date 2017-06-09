@@ -4,10 +4,17 @@
   @include large {
     @include size(100px);
     margin-top: 10px;
-
-  }
+    }
+}
+.large-logo {
+  height: 180px;
+  width: 450px;
+  position: absolute;
+  left: 250px;
+  top: -10px;
 }
 .navbar {
+  position: relative;
   margin: 0;
   height: 70px;
   background-color: black;
