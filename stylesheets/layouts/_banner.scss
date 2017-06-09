@@ -1,0 +1,33 @@
+#banner {
+  width: 100%;
+  margin-top: 5vh;
+  border-radius: 10px;
+}
+.whos-next {
+  transition: all .2s ease-in-out;
+  width: 100%;
+  & img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 3vh;
+  }
+  & h1 {
+    @include absolute(60px,30px,30px,30px);
+    color: $color-white;
+    width: 100%;
+    font-size: 10vh;
+    display: none;
+  }
+  border-bottom: 5vh;
+}
+
+.whos-next:hover {
+
+  transform: scale(1.1);
+  // & h1 {
+  //   width: 400px;
+  //   height: 200px;
+  //   display: inline-block;
+  //   color: darken($color-white, $amount);
+  // }
+}

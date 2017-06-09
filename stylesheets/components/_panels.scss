@@ -1,0 +1,52 @@
+.panel {
+  width: 100%;
+  height: 20%;
+  margin-top: 5vh;
+  position: relative;
+  border-radius: 20px;
+  background-color: black;
+}
+ .panel img {
+   width: 100%;
+   border-radius: 20px;
+ }
+
+ .panel {
+   transition: all .2s ease-in-out;
+
+  }
+ .panel:hover {
+   transform: scale(1.1);
+ }
+
+//PANEL HOVER P
+.dame:hover {
+  & p {
+    display: inline-block;
+    color: black;
+  }
+}
+.cj:hover {
+  & p {
+    display: inline-block;
+    color: darken($color-white, $amount);
+  }
+}
+.nurkic:hover {
+  & p {
+    display: inline-block;
+    color: darken($color-red, $amount);
+  }
+}
+.moe:hover {
+  & p {
+    display: inline-block;
+    color: darken($color-white, $amount);
+  }
+}
+.noah:hover {
+  & p {
+    display: inline-block;
+    color: black;
+  }
+}

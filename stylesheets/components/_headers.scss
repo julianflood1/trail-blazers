@@ -1,0 +1,29 @@
+h2 {
+  @include absolute(10px,10px,10px,20px);
+  @extend .panel-font;
+  color: $color-black;
+}
+
+.panel-font {
+  font-family: 'Anton', sans-serif;
+  font-size: 5vw;
+}
+
+.nurkic h2 {
+  color: darken($color-red, $amount);
+}
+
+.cj h2 {
+  color: darken($color-white, $amount);
+}
+
+.moe h2 {
+  color: darken($color-white, $amount);
+}
+
+p {
+  @include absolute(70px, 20px, 30px, 20px);
+  display: none;
+  font-family: 'Anton', sans-serif;
+  font-size: 2vw;
+}

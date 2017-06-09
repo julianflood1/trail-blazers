@@ -3,16 +3,24 @@
   'libraries/bourbon/bourbon',
   'libraries/neat/neat';
 
+/*utilities*/
+@import
+'utilities/mixins',
+'utilities/variables';
+
 /* components*/
 @import
 'components/buttons',
-'components/navbar';
+'components/headers',
+'components/navbar',
+'components/panels';
 
 /*layouts*/
 @import
+  'layouts/banner',
   'layouts/grid';
 
-/*utilities*/
-@import
-  'utilities/mixins',
-  'utilities/variables';
+body {
+  background-color: mix($color-red, $color-black, 60%);
+}
+@import url('https://fonts.googleapis.com/css?family=Anton');
