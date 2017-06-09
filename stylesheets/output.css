@@ -10,6 +10,17 @@ h2 {
   position: absolute;
   color: #000; }
 
+.stotts h2 {
+  color: #f7f4f0;
+  top: 70px;
+  right: 0px;
+  bottom: 0px;
+  left: 50px;
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  font-size: 8vw; }
+
 .panel-font, h2 {
   font-family: 'Anton', sans-serif;
   font-size: 7vw; }
@@ -37,16 +48,35 @@ p {
       font-size: 1vw;
       margin-top: 10px; } }
 
+.stotts p {
+  top: 170px;
+  right: 20px;
+  bottom: 30px;
+  left: 60px;
+  position: absolute;
+  display: none;
+  font-family: 'Anton', sans-serif;
+  font-size: 3vw;
+  margin-top: 10px; }
+
 .blazer-logo {
-  height: 6vh;
-  width: 6vh;
+  height: 50px;
+  width: 50px;
   margin-top: -5px; }
+  @media (min-width: 768px) {
+    .blazer-logo {
+      height: 100px;
+      width: 100px;
+      margin-top: 10px; } }
 
 .navbar {
   margin: 0;
   height: 70px;
   background-color: black;
   border-radius: 5px; }
+  @media (min-width: 768px) {
+    .navbar {
+      height: 150px; } }
 
 .navbar-toggle {
   border: none;
@@ -55,7 +85,7 @@ p {
     padding: 1.5px;
     width: 21px; }
 
-.panel, .stotts img {
+.panel {
   width: 100%;
   height: 20%;
   margin-top: 5vh;
@@ -65,18 +95,22 @@ p {
   border: 5px solid black;
   transition: all .2s ease-in-out; }
 
-.panel img, .stotts img img {
+.panel img {
   width: 100%;
   border-radius: 20px; }
   @media (min-width: 768px) {
-    .panel img, .stotts img img {
+    .panel img {
       height: 45vh; } }
 
-.panel:hover, .stotts img:hover {
+.panel:hover {
   transform: scale(1.1); }
 
 .stotts img {
   height: 65vh; }
+
+.stotts:hover p {
+  display: inline-block;
+  color: #f7f4f0; }
 
 .dame:hover p {
   display: inline-block;

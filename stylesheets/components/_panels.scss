@@ -7,8 +7,8 @@
   background-color: black;
   border: 5px solid black;
   transition: all .2s ease-in-out;
-
   }
+
  .panel img {
    width: 100%;
    border-radius: 20px;
@@ -22,12 +22,16 @@
  }
 
  .stotts img {
-   @extend .panel;
    height: 65vh;
  }
 
 //PANEL HOVER P
-.dame:hover {
+.stotts:hover {
+  & p {
+    display: inline-block;
+    color: $color-white;
+  }
+}.dame:hover {
   & p {
     display: inline-block;
     color: black;

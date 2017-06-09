@@ -1,12 +1,20 @@
 .blazer-logo {
-  @include size(6vh);
+  @include size(50px);
   margin-top: -5px;
+  @include large {
+    @include size(100px);
+    margin-top: 10px;
+
+  }
 }
 .navbar {
   margin: 0;
   height: 70px;
   background-color: black;
   border-radius: 5px;
+  @include large {
+    height: 150px;
+  }
 }
 
 .navbar-toggle {

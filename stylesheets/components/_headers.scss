@@ -4,6 +4,14 @@ h2 {
   color: $color-black;
 }
 
+ .stotts h2 {
+  color: $color-white;
+  @include absolute(70px,0px,0px,50px);
+  width: 100px;
+  height: 80px;
+  font-size: 8vw;
+}
+
 .panel-font {
   font-family: 'Anton', sans-serif;
   font-size: 7vw;
@@ -29,4 +37,12 @@ p {
     font-size: 1vw;
     margin-top: 10px;
   }
+}
+
+.stotts p {
+  @include absolute(170px, 20px, 30px, 60px);
+  display: none;
+  font-family: 'Anton', sans-serif;
+  font-size: 3vw;
+  margin-top: 10px;
 }
