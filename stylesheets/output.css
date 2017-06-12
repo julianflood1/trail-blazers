@@ -4,9 +4,9 @@
 @import url("https://fonts.googleapis.com/css?family=Anton");
 h2 {
   top: 10px;
-  right: 10px;
+  right: 20px;
   bottom: 10px;
-  left: 20px;
+  left: 10px;
   position: absolute;
   color: #000; }
 
@@ -19,14 +19,14 @@ h2 {
   position: absolute;
   width: 100px;
   height: 80px;
-  font-size: 8vw; }
+  font-size: 8vmin; }
 
 .panel-font, h2 {
   font-family: 'Anton', sans-serif;
-  font-size: 7vw; }
+  font-size: 35px; }
   @media (min-width: 768px) {
     .panel-font, h2 {
-      font-size: 3vw; } }
+      font-size: 50px; } }
 
 .nurkic h2, .crabbe h2 {
   color: #a42929; }
@@ -35,17 +35,19 @@ h2 {
   color: #e5dccf; }
 
 p {
-  top: 80px;
+  top: 60px;
   right: 20px;
   bottom: 0px;
-  left: 20px;
+  left: 10px;
   position: absolute;
   display: none;
   font-family: 'Anton', sans-serif;
-  font-size: 2.5vw; }
+  font-size: 12px;
+  margin-top: 5px; }
   @media (min-width: 768px) {
     p {
-      font-size: 1vw; } }
+      font-size: 18px;
+      margin-top: 20px; } }
 
 .stotts p {
   top: 170px;
@@ -145,20 +147,28 @@ p {
   border: 5px solid black;
   transition: all .2s ease-in-out;
   width: 100%;
-  border-radius: 10px;
-  margin-bottom: 3vh; }
+  border-radius: 10px; }
   .whos-next img {
     width: 100%; }
   .whos-next h1 {
-    top: 60px;
+    top: 20px;
     right: 30px;
     bottom: 30px;
-    left: 30px;
+    left: 50px;
     position: absolute;
     color: #f7f4f0;
     font-size: 10vw;
     display: none;
-    font-family: 'Anton', sans-serif; }
+    font-family: 'Anton', sans-serif;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .whos-next h1 {
+        font-size: 8vh;
+        top: 80px;
+        right: 30px;
+        bottom: 30px;
+        left: 50px;
+        position: absolute; } }
 
 .whos-next:hover {
   transform: scale(1.1); }

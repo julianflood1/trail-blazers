@@ -1,5 +1,5 @@
 h2 {
-  @include absolute(10px,10px,10px,20px);
+  @include absolute(10px,20px,10px,10px);
   @extend .panel-font;
   color: $color-black;
 }
@@ -9,14 +9,14 @@ h2 {
   @include absolute(50px,0px,0px,50px);
   width: 100px;
   height: 80px;
-  font-size: 8vw;
+  font-size: 8vmin;
 }
 
 .panel-font {
   font-family: 'Anton', sans-serif;
-  font-size: 7vw;
+  font-size: 35px;
   @include large {
-    font-size: 3vw;
+    font-size: 50px;
   }
 }
 
@@ -29,12 +29,14 @@ h2 {
 }
 
 p {
-  @include absolute(80px, 20px, 0px, 20px);
+  @include absolute(60px, 20px, 0px, 10px);
   display: none;
   font-family: 'Anton', sans-serif;
-  font-size: 2.5vw;
+  font-size: 12px;
+  margin-top: 5px;
   @include large {
-    font-size: 1vw;
+  font-size: 18px;
+  margin-top: 20px;
   }
 }
 
